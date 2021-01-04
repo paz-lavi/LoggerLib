@@ -4,44 +4,44 @@
 
 # Welcome To EZ Log!
 
-[![](https://jitpack.io/v/paz-lavi/Prefy.svg)](https://jitpack.io/#paz-lavi/Prefy) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/paz-lavi/Prefy/blob/master/LICENSE) [![GitHub forks](https://img.shields.io/github/forks/paz-lavi/Prefy)](https://github.com/paz-lavi/Prefy/network) [![GitHub stars](https://img.shields.io/github/stars/paz-lavi/Prefy)](https://github.com/paz-lavi/Prefy/stargazers) [![GitHub issues](https://img.shields.io/github/issues/paz-lavi/Prefy)](https://github.com/paz-lavi/Prefy/issues)
+[![](https://jitpack.io/v/paz-lavi/Prefy.svg)](https://jitpack.io/#paz-lavi/LoggerLib) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/paz-lavi/LoggerLib/blob/master/LICENSE) [![GitHub forks](https://img.shields.io/github/forks/paz-lavi/LoggerLib)](https://github.com/paz-lavi/LoggerLib/network) [![GitHub stars](https://img.shields.io/github/stars/paz-lavi/LoggerLib)](https://github.com/paz-lavi/LoggerLib/stargazers) [![GitHub issues](https://img.shields.io/github/issues/paz-lavi/LoggerLib)](https://github.com/paz-lavi/LoggerLib/issues)
 
 ## Table of Contents
 
-*  [Usage](https://github.com/paz-lavi/LoggerLib/blob/master/README.md#usage)
- *  [What's New](https://github.com/paz-lavi/LoggerLib/blob/master/README.md#whats-new)
+*  [Usage](https://github.com/paz-lavi/LoggerLib/blob/master/readme.md#usage)
+ *  [What's New](https://github.com/paz-lavi/LoggerLib/blob/master/readme.md#whats-new)
     *  [V1.0.0:](https://github.com/paz-lavi/LoggerLib/blob/master/README.md#v100)
- *  [Integration](https://github.com/paz-lavi/LoggerLib/blob/master/README.md#integration)
+ *  [Integration](https://github.com/paz-lavi/LoggerLib/blob/master/readme.md#integration)
 
-*  [Init Guide](https://github.com/paz-lavi/LoggerLib/blob/master/README.md#init-guide)
+*  [Init Guide](https://github.com/paz-lavi/LoggerLib/blob/master/readme.md#init-guide)
 
-*  [API](https://github.com/paz-lavi/LoggerLib/blob/master/README.md#api)
+*  [API](https://github.com/paz-lavi/LoggerLib/blob/master/readme.md#api)
 	*  [init](https://github.com/paz-lavi/LoggerLib/tree/master#init)
 
-	*  [getInstance](https://github.com/paz-lavi/LoggerLib/tree/master#getinstance)
+	*  [getInstance](https://github.com/paz-lavi/LoggerLib/blob/master/readme.md#getinstance)
 
-	*  [start](https://github.com/paz-lavi/LoggerLib/tree/master#start)
+	*  [start](https://github.com/paz-lavi/LoggerLib/blob/master/readme.md#start)
 
-	*  [setDebug](https://github.com/paz-lavi/LoggerLib/tree/master#setdebug)
+	*  [setDebug](https://github.com/paz-lavi/LoggerLib/blob/master/readme.md#setdebug)
 
-	*  [setPrintToLogcat](https://github.com/paz-lavi/LoggerLib/tree/master#setprinttologcat)
+	*  [setPrintToLogcat](https://github.com/paz-lavi/LoggerLib/blob/master/readme.md#setprinttologcat)
 
-	*  [setCostumerId](https://github.com/paz-lavi/LoggerLib/tree/master#setcostumerid)
+	*  [setCostumerId](https://github.com/paz-lavi/LoggerLib/blob/master/readme.md#setcostumerid)
 
-	*  [debug](https://github.com/paz-lavi/LoggerLib/tree/master#debug)
+	*  [debug](https://github.com/paz-lavi/LoggerLib/blob/master/readme.md#debug)
 
-	*  [info](https://github.com/paz-lavi/LoggerLib/tree/master#info)
+	*  [info](https://github.com/paz-lavi/LoggerLib/blob/master/readme.md#info)
 
-	*  [warn](https://github.com/paz-lavi/LoggerLib/tree/master#warn)
+	*  [warn](https://github.com/paz-lavi/LoggerLib/blob/master/readme.md#warn)
 
-	*  [verbose](https://github.com/paz-lavi/LoggerLib/tree/master#verbose)
+	*  [verbose](https://github.com/paz-lavi/LoggerLib/blob/master/readme.md#verbose)
 
-	*  [error](https://github.com/paz-lavi/LoggerLib/tree/master#error)
+	*  [error](https://github.com/paz-lavi/LoggerLib/blob/master/readme.md#error)
 
-	*  [logException](https://github.com/paz-lavi/LoggerLib/tree/master#logexception)
+	*  [logException](https://github.com/paz-lavi/LoggerLib/blob/master/readme.md#logexception)
 
 	
-*  [License](https://github.com/paz-lavi/Prefy/blob/master/README.md#license)
+*  [License](https://github.com/paz-lavi/LoggerLib/blob/master/readme.md#license)
 
 ## Usage
 
@@ -239,7 +239,7 @@ you may not use this file except in compliance with the License.
 
 You may obtain a copy of the License at
 
-https://github.com/paz-lavi/Prefy/blob/master/LICENSE
+https://github.com/paz-lavi/LoggerLib/blob/master/LICENSE
 
 Unless required by applicable law or agreed to in writing, software
 
