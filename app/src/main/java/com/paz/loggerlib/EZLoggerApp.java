@@ -1,11 +1,12 @@
 package com.paz.loggerlib;
 
 import android.app.Application;
+
 import com.paz.logger.EZLog;
 
 
 public class EZLoggerApp extends Application {
-    private final String devKey = "FTGDmOi0PnUFuspIRu6vKdZQu812";
+    private final String devKey = "oi1GCaoAn1bU8s5m3zrn6L5QKb93";
 
     @Override
     public void onCreate() {
