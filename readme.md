@@ -78,7 +78,7 @@ Add the dependency
 
 dependencies {
 
-implementation 'com.github.paz-lavi:Prefy:1.0.4'
+implementation 'com.github.paz-lavi:LoggerLib:0.0.01'
 
 }
 
