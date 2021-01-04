@@ -1,0 +1,4 @@
+include ':PrefyLib'
+include ':Logger'
+include ':app'
+rootProject.name = "LoggerLib"
