@@ -4,7 +4,7 @@
 
 # Welcome To EZ Log!
 
-[![](https://jitpack.io/v/paz-lavi/Prefy.svg)](https://jitpack.io/#paz-lavi/LoggerLib) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/paz-lavi/LoggerLib/blob/master/LICENSE) [![GitHub forks](https://img.shields.io/github/forks/paz-lavi/LoggerLib)](https://github.com/paz-lavi/LoggerLib/network) [![GitHub stars](https://img.shields.io/github/stars/paz-lavi/LoggerLib)](https://github.com/paz-lavi/LoggerLib/stargazers) [![GitHub issues](https://img.shields.io/github/issues/paz-lavi/LoggerLib)](https://github.com/paz-lavi/LoggerLib/issues)
+[![](https://jitpack.io/v/paz-lavi/LoggerLib.svg)](https://jitpack.io/#paz-lavi/LoggerLib) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/paz-lavi/LoggerLib/blob/master/LICENSE) [![GitHub forks](https://img.shields.io/github/forks/paz-lavi/LoggerLib)](https://github.com/paz-lavi/LoggerLib/network) [![GitHub stars](https://img.shields.io/github/stars/paz-lavi/LoggerLib)](https://github.com/paz-lavi/LoggerLib/stargazers) [![GitHub issues](https://img.shields.io/github/issues/paz-lavi/LoggerLib)](https://github.com/paz-lavi/LoggerLib/issues)
 
 ## Table of Contents
 
