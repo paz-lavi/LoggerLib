@@ -13,7 +13,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Logger" />
-            <option value="$PROJECT_DIR$/PrefyLib" />
+            <option value="$PROJECT_DIR$/PrefyLib_internal" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

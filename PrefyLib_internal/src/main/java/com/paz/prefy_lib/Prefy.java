@@ -9,7 +9,6 @@ import android.util.Log;
 
 import androidx.security.crypto.EncryptedSharedPreferences;
 import androidx.security.crypto.MasterKey;
-import androidx.security.crypto.MasterKeys;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;

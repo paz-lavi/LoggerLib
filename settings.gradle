@@ -1,4 +1,4 @@
-include ':PrefyLib'
+include ':PrefyLib_internal'
 include ':Logger'
 include ':app'
 rootProject.name = "LoggerLib"
