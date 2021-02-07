@@ -1,21 +1,36 @@
 package com.paz.logger;
 
 import android.content.Context;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.FirebaseOptions;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.paz.logger.data.UserId;
 import com.paz.taskrunnerlib.task_runner.RunnerCallback;
 import com.paz.taskrunnerlib.task_runner.TaskRunner;
 
-public class LoggerDB {
-    private final FirebaseFirestore db = FirebaseFirestore.getInstance();
-    private static final String TAG = "dd";
+import static com.paz.logger.data.Constants.API_KEY;
+import static com.paz.logger.data.Constants.FIREBASE_APP_NAME;
+import static com.paz.logger.data.Constants.LIB_APP_ID;
+import static com.paz.logger.data.Constants.PROJECT_ID;
+import static com.paz.logger.data.Constants.STORAGE_BUCKET;
 
+public class LoggerDB {
+    private Context context;
+    private FirebaseFirestore db;
+    private FirebaseApp loggerApp;
+    private static final String TAG = "LoggerDB";
+
+    public LoggerDB(Context context) {
+        this.context = context;
+        initFirebaseInstance();
+    }
 
     protected void uploadLogsToDB(Context context, String devKey, SessionDocument doc) {
         TaskRunner<Void> ts = new TaskRunner<>();
@@ -60,6 +75,25 @@ public class LoggerDB {
                 });
     }
 
+
+    private void initFirebaseInstance() {
+        FirebaseOptions options = new FirebaseOptions.Builder()
+                .setProjectId(PROJECT_ID)
+                .setApplicationId(LIB_APP_ID)
+                .setApiKey(API_KEY)
+                .setStorageBucket(STORAGE_BUCKET)
+                .setDatabaseUrl("<your DB url that ends in 'firebaseio.com/' ")
+                .build();
+
+        try {
+            FirebaseApp.initializeApp(context.getApplicationContext(), options, FIREBASE_APP_NAME);
+        } catch (Exception e) {
+            Log.d(TAG, "initFirebaseInstance: ");
+        }
+
+        loggerApp = FirebaseApp.getInstance(FIREBASE_APP_NAME);
+        db = FirebaseFirestore.getInstance(loggerApp);
+    }
 
 
 }

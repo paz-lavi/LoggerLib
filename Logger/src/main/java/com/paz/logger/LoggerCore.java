@@ -35,7 +35,7 @@ public class LoggerCore extends EZLog {
         devKey = key;
         application = (Application) context.getApplicationContext();
         logs = new ArrayList<>();
-        db = new LoggerDB();
+        db = new LoggerDB(context.getApplicationContext());
         Prefy.init(context.getApplicationContext(), true);
 
     }
